@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+body {
+  display: grid;
+  grid-template-columns: auto 768px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: gray;
+  background-color: #e9e6e6;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */

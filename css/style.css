@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+body {
+  display: grid;
+  grid-template-columns: auto 768px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: gray;
+  background-color: #e9e6e6;
+  text-align: justify;
+}
+
+header, nav, main {
+  grid-column: 2;
+  margin: 10px 0;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid #a8a6a6;
+  padding: 20px;
+}
+
+header, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px;
+}
+
+h1 {
+  color: #d42a2a;
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 0.01rem;
+}
+
+header #tim {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid lightgray;
+}
+header #button {
+  padding: 1em;
+  background-color: #d42a2a;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+
+nav {
+  padding: 40px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav ul li a i {
+  margin: 0 0 10px 0;
+  transform: scale(1.5);
+}
+
+main .movie {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20% 80%;
+  padding: 10px 0px 10px 20px;
+  margin: 20px 0px;
+}
+main .movie .cover {
+  width: 100%;
+}
+main .movie .desc {
+  padding: 0 10px 0 30px;
+  line-height: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 5vw;
+  }
+
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  header, nav, main {
+    width: 100vw;
+    border-radius: 3px;
+    margin: 2px 0;
+  }
+
+  h1, h2, h3 {
+    white-space: nowrap;
+    margin: 10px 15%;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  h3 {
+    font-size: 5vw;
+  }
+
+  nav {
+    padding: 20px;
+  }
+  nav ul {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: auto;
+  }
+  nav ul li {
+    margin: 0;
+  }
+
+  main .movie {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  main .movie .desc {
+    padding: 0;
+    line-height: 1.5em;
+  }
+  main .movie .cover {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .body {
+    min-width: 280px;
+    overflow-x: scroll;
+  }
+
+  #tim {
+    margin: 10px 30%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
