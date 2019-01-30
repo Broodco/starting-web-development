@@ -19,7 +19,9 @@ The repo contains the following directories and files :
 > style.scss : main stylesheet of the page ; 
  * css : 
 > style.css : stylesheet compiled from scss/style.scss . The one used by browsers.
+
 > style.css.map : map created with the scss -> css compilation.
+
 > styletim.css : old css stylesheet, replaced by style.scss/style.css . Still there for reviewing purpose.
  * resources : 
 > jpeg files : images imbedded in the web page.
