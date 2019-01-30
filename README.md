@@ -14,15 +14,15 @@ Visit the dedicated webpage ----> [**HERE**](https://broodco.github.io/starting-
 The repo contains the following directories and files :
 
  * root :
-> * index.html : the html code of the webpage.
+> index.html : the html code of the webpage.
  * scss : 
-> ..* style.scss : main stylesheet of the page ; 
+> style.scss : main stylesheet of the page ; 
  * css : 
-> * style.css : stylesheet compiled from scss/style.scss . The one used by browsers.
-> * style.css.map : map created with the scss -> css compilation.
-> * styletim.css : old css stylesheet, replaced by style.scss/style.css . Still there for reviewing purpose.
+> style.css : stylesheet compiled from scss/style.scss . The one used by browsers.
+> style.css.map : map created with the scss -> css compilation.
+> styletim.css : old css stylesheet, replaced by style.scss/style.css . Still there for reviewing purpose.
  * resources : 
-> * jpeg files : images imbedded in the web page.
+> jpeg files : images imbedded in the web page.
 
 ##  Branches 
 
