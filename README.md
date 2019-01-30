@@ -2,7 +2,7 @@
 
 ## What is this repository about?
 
-During the second week of my formation *@BeCode Brussels*, we were asked to recreate a web page about **Tim-Berners-Lee**, following a precise template.
+During the second week of my formation *@BeCode Brussels*, we were asked to recreate a web page about **Tim Berners-Lee**, following a precise template.
 This repository contains my attempt at this exercise.
 
 ## Getting Started 
